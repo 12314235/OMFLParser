@@ -1,0 +1,77 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vs/CMake Overview
+.vs/cmake.db
+*.vsidx
+*.lock
+.vs/labwork-6-12314235/v17/.wsuo
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.ipch
+*.json
+*.sqlite
+out/build/x64-Debug/.ninja_deps
+*.cmake
+*.pc
+*.ninja
+*.check_cache
+*.txt
+*.log
+out/build/x64-Debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete
+out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure
+out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download
+out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done
+out/build/x64-Debug/_deps/googletest-subbuild/.ninja_log
+out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build
+out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch
+out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir
+out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test
+*.manifest
+*.rc
+*.res
+*.pdb
+*.bin
+*.c
+*.cpp
+*.h
+*.ilk
+out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install
+out/build/x64-Debug/_deps/googletest-src/
+out/build/x64-Debug/.ninja_log
+tests/test_format.cpp
+tests/test_parser.cpp
+example/config.omfl
+tests/test_format.cpp
+tests/test_parser.cpp

@@ -8,5 +8,11 @@ link_directories(lib)
 add_subdirectory(lib)
 add_subdirectory(bin)
 
+target_include_directories(
+        ITMLparse INTERFACE
+        $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/lib>
+)
+
 enable_testing()
 add_subdirectory(tests)

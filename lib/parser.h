@@ -64,16 +64,16 @@ namespace omfl {
 				return float_value;
 			}
 
-			std::string AsStringOrDefault(const std::string& default) {
-				return is_string ? string_value : default;
+			std::string AsStringOrDefault(const std::string& default_value) {
+				return is_string ? string_value : default_value;
 			}
 
-			float AsFloatOrDefault(float default) {
-				return is_float ? float_value : default;
+			float AsFloatOrDefault(float default_value) {
+				return is_float ? float_value : default_value;
 			}
 
-			int32_t AsIntOrDefault(int32_t default) {
-				return is_int ? int_value : default;
+			int32_t AsIntOrDefault(int32_t default_value) {
+				return is_int ? int_value : default_value;
 			}
 
 			OMFLParsed::key& operator[](size_t index);
